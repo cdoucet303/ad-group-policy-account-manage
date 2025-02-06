@@ -97,8 +97,3 @@ I am shown this pop up window when I attempt to log in as my disabled user accou
 If I Enable the account with the same way I disabled it then it will be all good and can log in again. 
 </p>
 <br />
-
-<p>
-One final pivot in this lab and this one is about Observing Logs in the Domain Controller (DC-1) and the client machine (Client-1). We will start in the Domain Controller PC first by searching for Event Viewer in the bottom left search bar. 
-</p>
-<br />
