@@ -57,8 +57,28 @@ To make sure that the update is applied and it is using the Default Domain Polic
 ![image](https://github.com/user-attachments/assets/5677b986-ea7a-4e4d-b549-4dcf4701ae12)
 
 <p>
-It is now time to logout of my Client-1 VM and log in as a random user and purposeley mess up the log in credentials 5 times and   
+It is now time to logout of my Client-1 VM and log in as a random user and purposeley mess up the log in credentials 5 times and make sure the Account is locked out for 30 minutes. After the fifth failure I was given that little popup window mention the users account I was trying to log in as has been locked out.
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/ee29e9cc-5233-456e-953b-29cdc242ea26)
+![image](https://github.com/user-attachments/assets/81fe5953-739d-4c87-b314-335ca3c9e40e)
+
+<p>
+Now I will switch back to my DC-1 Domain Controller VM and check the users properties through the Active Directory Users and Computers Tool. To search through all the users in the _EMPLOYEES folder would take a long time as there is over 5000 so I can right click the domain mydomain.com and select find and search for the user that way. In this example I used the random user qiv.top and as you can see in the green box the account has been locked out and I can check the box to unlock the account. I am going to unlock the account and now log in as qiv.top with the correct credentials to see if it has worked.
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/e05140dc-dd80-4684-8bbd-1eb574b0b4f2)
+
+<p>
+It has worked and the account is unlocked!
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/a998ea0f-d39b-4952-8f8f-ccb08bbec659)
+
+<p>
+It has worked and the account is unlocked!
+</p>
+<br />
+
