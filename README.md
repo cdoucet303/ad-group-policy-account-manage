@@ -78,7 +78,27 @@ It has worked and the account is unlocked!
 ![image](https://github.com/user-attachments/assets/a998ea0f-d39b-4952-8f8f-ccb08bbec659)
 
 <p>
-It has worked and the account is unlocked!
+I am going to pivot now and demonstrate how to disable and re-enable the user qiv.top's account from the DC-1 Domain Controller PC. With the same steps from before about finding a user in a folder full of thousands of users I will use the Find method when you right click the domain in the Active Directory Users and Computers Tool. Once the user is found you can just simply right click the user and get a few valuable options like disable or reset password. I am going to click Disable Account. Now I will try to log in to the account on my Client-1 VM and observe what happens.
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/6c944133-431d-42e4-9502-0f8adede3ee0)
+![image](https://github.com/user-attachments/assets/74d0ff52-cb8f-4909-9c9e-373486dd2814)
+
+
+<p>
+I am shown this pop up window when I attempt to log in as my disabled user account qiv.top
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/e5f7f8f6-415c-4add-b716-c87ba3d7f9b5)
+
+<p>
+If I Enable the account with the same way I disabled it then it will be all good and can log in again. 
+</p>
+<br />
+
+<p>
+One final pivot in this lab and this one is about Observing Logs in the Domain Controller (DC-1) and the client machine (Client-1). We will start in the Domain Controller PC first by searching for Event Viewer in the bottom left search bar. 
+</p>
+<br />
