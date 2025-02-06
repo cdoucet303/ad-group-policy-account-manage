@@ -23,7 +23,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Configure Group Policy
 - Dealing with account lockouts
 - Enabling and Disabling Accounts
-- Observing logs
 
 <h2>Deployment and Configuration Steps</h2>
 
